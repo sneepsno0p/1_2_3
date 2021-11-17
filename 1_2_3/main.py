@@ -45,7 +45,7 @@ def v():
   wn.listen()
 
 for i in range(10):
-  time.sleep(2)
+  time.sleep(1.5)
   die = rand.randrange(len(alphabetti))
   drawer.clear()
   v()
